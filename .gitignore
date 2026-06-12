@@ -1,81 +1,29 @@
 # Python
-
-**pycache**/
-*.py[cod]
-*$py.class
+__pycache__/
+*.pyc
 
 # Virtual Environments
-
 venv/
-env/
 .venv/
+env/
 
 # Environment Variables
-
 .env
-.env.*
-!.env.example
 
-# Streamlit Secrets
-
+# Streamlit
 .streamlit/secrets.toml
 
 # Logs
-
 logs/*.csv
 logs/*.log
-*.log
 
-# IDE Files
-
+# IDE
 .vscode/
 .idea/
 
-# OS Files
-
-.DS_Store
-Thumbs.db
-
 # Jupyter
-
 .ipynb_checkpoints/
 
-# Python Build Files
-
-build/
-dist/
-*.egg-info/
-
-# Testing
-
-.pytest_cache/
-.coverage
-
-# Local Databases
-
-*.db
-*.sqlite3
-
-# Temporary Files
-
-temp/
-tmp/
-
-# API Keys & Credentials
-
-secrets.json
-credentials.json
-service_account.json
-
-# Audit Files (optional)
-
-audit_logs.csv
-
-# Streamlit Cache
-
-.streamlit/cache/
-
-# Generated Files
-
-*.bak
-*.swp
+# OS
+.DS_Store
+Thumbs.db
