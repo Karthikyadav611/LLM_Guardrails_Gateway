@@ -1,0 +1,18 @@
+security:
+  pii_detection_enabled: true
+  mask_pii: true
+  block_jailbreaks: true
+  block_prompt_injection: true
+
+policy:
+  max_retries: 2
+  json_validation_enabled: true
+  blocked_keywords:
+    - "confidential salary"
+    - "internal master key"
+  blocked_topics:
+    - "illegal acts"
+
+fallbacks:
+  safety_message: "I cannot process this request because it violates safety or policy rules."
+  format_error_message: "I failed to generate the response in the required format after retries."
